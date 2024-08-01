@@ -35,6 +35,11 @@ Esta es la lista de los casos de uso que soporta la aplicación, estos casos de 
 
 ### Crear usuario
 
+  ```text
+  method: POST
+  URL: /api/v1/user/signup
+  ```
+
 Para crear un usuario se requieren los siguientes datos:
 
 - name
@@ -50,6 +55,11 @@ Para crear un usuario se requieren los siguientes datos:
   ```
 
 ### Autenticar usuario
+
+  ```text
+  method: POST
+  URL: /api/v1/user/signin
+  ```
 
 Para loguear un usuario se requieren los siguientes datos:
 

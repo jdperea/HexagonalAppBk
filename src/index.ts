@@ -1,5 +1,5 @@
 import express from 'express'
-//import router from './infrastructure/UI/routers/router'
+import router from './infrastructure/UI/routers/router'
 //import { httpLogger } from './logger'
 import dotenv from 'dotenv'
 dotenv.config()
@@ -12,7 +12,7 @@ app.use(express.json())
 app.get('/', (req, res) => {
     res.send('Hello World!').status(200)
 })
-//app.use(router)
+app.use(router)
 
 
 const port = process.env.SERVER_PORT || 3000
