@@ -17,7 +17,9 @@ Requisitos previos:
 
 1. Ejecuta `npm install`
 
-2. cd a la carpeta `src/infrastructure/db`
+2. Copiar y ajustar las variables env.example a .env
+
+3. cd a la carpeta `src/infrastructure/db`
 
     ```bash
     cd src/infrastructure/db
@@ -25,9 +27,9 @@ Requisitos previos:
     npx prisma migrate dev --name init
     ```
 
-3. Ejecuta `npm run start` para lanzar la aplicación
+4. Ejecuta `npm run start` para lanzar la aplicación
 
-4. Ejecuta `npm run test` para lanzar los tests
+5. Ejecuta `npm run test` para lanzar los tests
 
 ## casos de uso
 
