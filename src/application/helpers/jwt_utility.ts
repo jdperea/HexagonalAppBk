@@ -1,6 +1,7 @@
 import { SignJWT, jwtVerify } from 'jose';
 
 const JWT_SECRET = process.env.JWT_SECRET || 'secret';
+const JWT_ISSUER = process.env.JWT_ISSUER || 'http://localhost:3000';
 
 type Payload = {
     id: string;
@@ -14,7 +15,7 @@ export const generateToken = async (payload: Payload) => {
         .setExpirationTime(exp)
         .setProtectedHeader({ alg: 'HS256', typ: 'JWT' })
         .setIssuedAt(iat)
-        .setIssuer('http://localhost:3000')
+        .setIssuer(JWT_ISSUER)
         .setNotBefore(iat)
         .sign(new TextEncoder().encode(JWT_SECRET));
 };

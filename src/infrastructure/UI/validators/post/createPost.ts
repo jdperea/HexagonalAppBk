@@ -12,7 +12,7 @@ export class CreatePost {
     title: string;
 
     @Length(8, 10000)
-    body: string;
+    content: string;
 }
 
 

@@ -78,12 +78,12 @@ Para loguear un usuario se requieren los siguientes datos:
 Para crear un post se requieren los siguientes datos:
 
 - title
-- content
+- body
 
   ```json
   {
     "title": "My first post",
-    "content": "<h1>Hello World!</h1><p>This is my first post</p>",
+    "body": "<h1>Hello World!</h1><p>This is my first post</p>",
   }
   ```
 
