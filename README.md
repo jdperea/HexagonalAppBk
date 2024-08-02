@@ -63,6 +63,12 @@ Para loguear un usuario se requieren los siguientes datos:
   }
   ```
 
+========================================================
+
+## Apartir de este las peticiones requieren autenticación con Bearer Token de la respuesta del Caso de Crear usuario
+
+========================================================
+
 ### Crear un post
 
 Para crear un post se requieren los siguientes datos:
