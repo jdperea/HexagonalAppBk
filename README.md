@@ -1,6 +1,15 @@
 # Ejemplo de Arquitectura Hexagonal en Node.js usando TS
 
+  [![My Skills](https://skillicons.dev/icons?i=ts,nodejs,git,npm,prisma,sqlite,vercel&theme=dark)]
+
 Este es un ejemplo sencillo de Arquitectura Hexagonal en Node.js usando TypeScript.
+
+- TypeScript
+- Node.js
+- npm
+- Sqlite
+- Prisma
+- Vercel
 
 ## ¿Qué es la Arquitectura Hexagonal?
 
@@ -11,9 +20,9 @@ También se conoce como Arquitectura de Puertos y Adaptadores o Arquitectura de 
 
 Requisitos previos:
 
-- Node.js
-- npm
-- prisma => `npm install -g prisma`
+- Node.js nodejs
+- npm npm
+- prisma => `npm install -g prisma` prisma
 
 1. Ejecuta `npm install`
 
